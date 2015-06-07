@@ -473,6 +473,9 @@ ol ul {
 	margin-bottom: 0;
 	margin-left: 1em;
 }
+.site-content ul, .site-content ol {
+	font-family: Georgia !important;
+}
 .site-content li {
 	margin-bottom: 0.25em;
 }

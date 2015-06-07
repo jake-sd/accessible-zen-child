@@ -87,6 +87,11 @@
 			echo get_field('bathroom') . '</p>';
 		} ?>
 
+		<p><strong>Max Capacity</strong><br>
+		<?php if(get_field('capacity')) {
+			echo get_field('capacity') . '</p>';
+		} ?>
+
 		<?php if(get_field('website')) { ?>
 		<p><strong>Website</strong><br>
 			<a href="<?php echo get_field('website'); ?>" title="<?php the_title(); ?>" target="_blank">
